@@ -29,5 +29,4 @@
 
 
 **F. Dependencies**
-
-The dataset importation from Google Drive and saving model data into Google Drive required drive permission.
++ The dataset importation from Google Drive and saving model data into Google Drive required drive permission.
