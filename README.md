@@ -25,8 +25,8 @@
 + [`ds4_sentiment_analysis_for_rating_calculation.py`](https://github.com/jahid-jabed/ratings_cal_zoom/blob/main/codes/ds4_sentiment_analysis_for_rating_calculation.py)
 + [`zoom_app_reviews_star_calculation.py`](https://github.com/jahid-jabed/ratings_cal_zoom/blob/main/codes/zoom_app_reviews_star_calculation.py)
 
-**E. Results and Performance**
+**D. Results and Performance**
 
 
-**F. Dependencies**
+**E. Dependencies**
 + The dataset importation from Google Drive and saving model data into Google Drive required permission of drive.
