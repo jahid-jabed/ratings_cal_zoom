@@ -18,3 +18,9 @@
 + `/Pickle Data/Model_3` - includes model saved data for Dataset #3.
 + `/Pickle Data/Model_4` - includes model saved data for Dataset #4.
 
+**C. Codes**
++ [`ds1_sentiment_analysis_for_rating_calculation.py`](https://github.com/jahid-jabed/ratings_cal_zoom/blob/main/codes/ds1_sentiment_analysis_for_rating_calculation.py)
++ [`ds2_sentiment_analysis_for_rating_calculation.py`](https://github.com/jahid-jabed/ratings_cal_zoom/blob/main/codes/ds2_sentiment_analysis_for_rating_calculation.py)
++ [`ds3_sentiment_analysis_for_rating_calculation.py`](https://github.com/jahid-jabed/ratings_cal_zoom/blob/main/codes/ds3_sentiment_analysis_for_rating_calculation.py)
++ [`ds4_sentiment_analysis_for_rating_calculation.py`](https://github.com/jahid-jabed/ratings_cal_zoom/blob/main/codes/ds4_sentiment_analysis_for_rating_calculation.py)
++ [`zoom_app_reviews_star_calculation.py`](https://github.com/jahid-jabed/ratings_cal_zoom/blob/main/codes/zoom_app_reviews_star_calculation.py)
