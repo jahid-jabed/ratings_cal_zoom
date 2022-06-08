@@ -8,7 +8,7 @@
 + Language: Python
 
 **B. Datasets**
-+ The datsets used in this work and the saved model data will found in this [link](https://t.ly/ratings_cal_zoom_datasets).
++ The datsets used in this work and the saved model data will found in this [link](https://drive.google.com/drive/folders/1EeeV4jOpoJgqoj0v_tdMSoXvNcPgV3hn).
 + `Reviews.csv` - includes all the raw reviews collected with other information.
 + `App_Reviews.csv(/.xlsx)` - includes only used raw reviews.
 + `Zoom_Reviews` - includes only the zoom app reviews collected.
