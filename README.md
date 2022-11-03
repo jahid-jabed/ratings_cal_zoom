@@ -60,5 +60,3 @@
 **E. Dependencies**
 + The dataset importation from Google Drive and saving model data into Google Drive required permission of drive.
 
-**F. Preprint Info.**
-+ <a href="https://plu.mx/plum/a/?doi=10.2139%2Fssrn.4141764" data-popup="right" data-size="large" class="plumx-plum-print-popup" data-site="plum" data-hide-when-empty="true">Actual Rating Calculation of the Zoom Cloud Meetings App Using User Reviews on Google Play Store with Sentiment Annotation of Bert and Hybridization of RNN and LSTM</a>
