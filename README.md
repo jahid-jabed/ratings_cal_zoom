@@ -63,7 +63,7 @@ _# Use pre-processed unbiased dataset based on BERT Base_
 
 + Calculated average rating of the Zoom Cloud Meetings App and All Apps with actual average rating.
 
-| Model Trained on Dataset | Calculated Average Ratings |          |  Pooled Average Rating  |          |  Actual Average Rating  |          |
+| Model Trained on Dataset | Calculated Average Ratings |          |  Pooled Average Rating  |          |Average Rating on Dataset|          |
 |:------------------------:|:--------------------------:|:--------:|:-----------------------:|:--------:|:-----------------------:|:--------:|
 |                          |   Zoom Cloud Meetings App  | All Apps | Zoom Cloud Meetings App | All Apps | Zoom Cloud Meetings App | All Apps |
 |          DS - 1          |            3.70            |   3.97   |                         |          |                         |          |
