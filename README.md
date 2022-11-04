@@ -66,10 +66,10 @@ _# Use pre-processed unbiased dataset based on BERT Base_
 | Model Trained on Dataset | Calculated Average Ratings |          |  Pooled Average Rating  |          |Average Rating on Dataset|          |
 |:------------------------:|:--------------------------:|:--------:|:-----------------------:|:--------:|:-----------------------:|:--------:|
 |                          | **Zoom Cloud Meetings App**| **All Apps** | **Zoom Cloud Meetings App** | **All Apps** | **Zoom Cloud Meetings App** | **All Apps** |
-|          DS - 1          |            3.70            |   3.97   |                         |          |                         |          |
-|          DS - 2          |            3.01            |   3.03   |           3.60          |   3.73   |           3.08          |   3.42   |
-|          DS - 3          |            3.96            |   4.21   |                         |          |                         |          |
-|          DS - 4          |            3.71            |   3.70   |                         |          |                         |          |
+|          **DS - 1**          |            3.70            |   3.97   |                         |          |                         |          |
+|          **DS - 2**          |            3.01            |   3.03   |           3.60          |   3.73   |           3.08          |   3.42   |
+|          **DS - 3**          |            3.96            |   4.21   |                         |          |                         |          |
+|          **DS - 4**          |            3.71            |   3.70   |                         |          |                         |          |
 
 
 **E. Dependencies**
