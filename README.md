@@ -35,6 +35,8 @@
   + Performance Analysis of BERT Base.
 + [`rnn_sentiment_analysis.py`](https://github.com/jahid-jabed/ratings_cal_zoom/blob/main/codes/rnn_sentiment_analysis.py)
   + Performance Analysis of RNN.
++ [`lstm_sentiment_analysis.py`](https://github.com/jahid-jabed/ratings_cal_zoom/blob/main/codes/lstm_sentiment_analysis.py)
+  + Performance Analysis of LSTM.
 
 **D. Results and Performance**
 + Summary of precision (P), recalls (R), f1-scores (F1), and accuracies (A) of DS - 1, DS - 2, DS - 3, and DS - 4.
