@@ -41,11 +41,11 @@
   + Performance Analysis on All Reviews using BERT Base
 
 **D. Results and Performance**
-+ Summary of precision (P), recalls (R), f1-scores (F1), and accuracies (A) of DS - 1, DS - 2, DS - 3, and DS - 4.
++ Summary of precisions (P), recalls (R), f1-scores (F1), and accuracies (A) of DS - 1, DS - 2, DS - 3, and DS - 4.
 
 |      || Ratings | | DS - 1 |      |      |      | |DS - 2 |      |      |      | | DS - 3 |      |      |      || DS - 4 |      |      |      |
 |:----:|:-:|:-------:|:-:|:----:|:----:|:----:|:----:|:-:|:----:|:----:|:----:|:----:|:-:|:----:|:----:|:----:|:----:|:-:|:----:|:----:|:----:|:----:|
-|      | |           | |   P  |   R  |  F1  |   A  ||   P  |   R  |  F1  |   A  ||   P  |   R  |  F1  |   A  ||   P  |   R  |  F1  |   A  |
+|      | |           | |   **P**  |   **R**  |  **F1**  |   **A**  ||   **P**  |   **R**  |  **F1**  |   **A**  ||   **P**  |   **R**  |  **F1**  |   **A**  ||   **P**  |   **R**  |  **F1**  |   **A**  |
 |      |  |  ☆     |  | 0.61 | 0.58 | 0.59 |      || 0.54 | 0.67 | 0.60 |      || **0.68** | **0.71** | **0.69** |      | |0.48 | 0.67 | 0.56 |      |
 |      |   | ☆☆    | | **0.41** | **0.30** | **0.35** |      | |0.32 | 0.12 | 0.18 |      | |0.00 | 0.00 | 0.00 |      | |0.00 | 0.00 | 0.00 |      |
 |**Our Models**||   ☆☆☆ |     | **0.47** | 0.28 | 0.35 | 0.61 || 0.38 | 0.29 | 0.33 | 0.45 || 0.33 | 0.25 | 0.29 | **0.71** || 0.35 | 0.21 | 0.27 | 0.54 |
@@ -65,7 +65,7 @@ _# Use pre-processed unbiased dataset based on BERT Base_
 
 | Model Trained on Dataset | Calculated Average Ratings |          |  Pooled Average Rating  |          |Average Rating on Dataset|          |
 |:------------------------:|:--------------------------:|:--------:|:-----------------------:|:--------:|:-----------------------:|:--------:|
-|                          |   Zoom Cloud Meetings App  | All Apps | Zoom Cloud Meetings App | All Apps | Zoom Cloud Meetings App | All Apps |
+|                          | **Zoom Cloud Meetings App**| **All Apps** | **Zoom Cloud Meetings App** | **All Apps** | **Zoom Cloud Meetings App** | **All Apps** |
 |          DS - 1          |            3.70            |   3.97   |                         |          |                         |          |
 |          DS - 2          |            3.01            |   3.03   |           3.60          |   3.73   |           3.08          |   3.42   |
 |          DS - 3          |            3.96            |   4.21   |                         |          |                         |          |
