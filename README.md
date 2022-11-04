@@ -32,11 +32,13 @@
 + [`all_app_reviews_star_calculation.py`](https://github.com/jahid-jabed/ratings_cal_zoom/blob/main/codes/all_app_reviews_star_calculation.py)
   + Actual rating calculation of All reviews colled using discussed models.
 + [`bert_sentiment_analysis_for_rating_calculations.py`](https://github.com/jahid-jabed/ratings_cal_zoom/blob/main/codes/bert_sentiment_analysis_for_rating_calculations.py)
-  + Performance Analysis of BERT Base.
+  + Performance Analysis of BERT Base on Pre-Processed Reviews.
 + [`rnn_sentiment_analysis.py`](https://github.com/jahid-jabed/ratings_cal_zoom/blob/main/codes/rnn_sentiment_analysis.py)
   + Performance Analysis of RNN.
 + [`lstm_sentiment_analysis.py`](https://github.com/jahid-jabed/ratings_cal_zoom/blob/main/codes/lstm_sentiment_analysis.py)
   + Performance Analysis of LSTM.
++ [`bert_sentiment_analysis`](https://github.com/jahid-jabed/ratings_cal_zoom/blob/main/codes/bert_sentiment_analysis.py)
+  + Performance Analysis on All Reviews using BERT Base
 
 **D. Results and Performance**
 + Summary of precision (P), recalls (R), f1-scores (F1), and accuracies (A) of DS - 1, DS - 2, DS - 3, and DS - 4.
@@ -50,12 +52,12 @@
 |      |   |☆☆☆☆  | | 0.43 | 0.20 | 0.27 |      | |0.37 | 0.38 | 0.37 |      | |0.38 | 0.11 | 0.17 |      || 0.41 | 0.10 | 0.16 |      |
 |      |  |☆☆☆☆☆ | | 0.67 | 0.89 | 0.76 |      | |0.49 | 0.65 | 0.56 |      | |0.76 | 0.94 | 0.84 |      | |0.60 | 0.87 | 0.71 |      |
 |      |   |        | |  |      |      |      |  |   |   |      |      |  |      | |      |      |  |      |   |   |      |
-|      |    |       | | BERT |      |      |      | |RNN |      |      |      | |LSTM |      |      |      |  | |     |      |      |
-|      |    |☆      | | 0.81 | 0.82 | 0.82 |      || 0.40 | 0.42 | 0.41 |      || 0.38 | 0.51 | 0.44 |      | | | |  |      |
-|      |    |☆☆    | | 0.51 | 0.59 | 0.55 |      | |0.00 | 0.00 | 0.00 |      | |0.00 | 0.00 | 0.00 |      |  ||  |  |      |
-|Pretrained Models||   ☆☆☆ |    | 0.33 | 0.47 | 0.39 | 0.67| | 0.39 | 0.35 | 0.47 | 0.45 || 0.34 | 0.29 | 0.31 | 0.47| |  |  |  |  |
-|      |  | ☆☆☆☆  | | 0.60 | 0.61 | 0.60 |      | |0.36 | 0.06 | 0.11 |      || 0.36 | 0.11 | 0.17 |      |  |  | |  |    |
-|      |  |☆☆☆☆☆ | | 0.71 | 0.67 | 0.69 |      | |0.55 | 0.83 | 0.66 |      | |0.55 | 0.83 | 0.66 |      |  |  |  |  |    |
+|      |    |       | | BERT Base *|      |      |      | |BERT Base |      |      |      | |RNN |      |      |      |  | LSTM|     |      |      |
+|      |    |☆      | | 0.81 | 0.82 | 0.82 |      || 0.53 | 0.68 | 0.59 |      || 0.40 | 0.42 | 0.41 |      | | 0.38|0.51 | 0.44 |      |
+|      |    |☆☆    | | 0.51 | 0.59 | 0.55 |      | |0.30 | 0.28 | 0.29 |      | |0.00 | 0.00 | 0.00 |      |  |0.00| 0.00 | 0.00 |      |
+|Pretrained Models||   ☆☆☆ |    | 0.33 | 0.47 | 0.39 | 0.67| | 0.43 | 0.35 | 0.38 | 0.53 || 0.39 | 0.35 | 0.47 | 0.45| | 0.34 | 0.29 | 0.31 | 0.47 |
+|      |  | ☆☆☆☆  | | 0.60 | 0.61 | 0.60 |      | |0.31 | 0.40 | 0.35 |      || 0.36 | 0.06 | 0.11 |      |  | 0.36 |0.11 | 0.17 |    |
+|      |  |☆☆☆☆☆ | | 0.71 | 0.67 | 0.69 |      | |0.77 | 0.67 | 0.72 |      | |0.55 | 0.83 | 0.66 |      |  | 0.55 | 0.83 | 0.66 |    |
 
 
 + Calculated average rating of the Zoom Cloud Meetings App and All Apps with actual average rating.
